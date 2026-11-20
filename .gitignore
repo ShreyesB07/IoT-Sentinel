@@ -1,0 +1,50 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Streamlit cache
+.streamlit/cache/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated logs
+logs/*
+!logs/.gitkeep
+
+# Generated runtime data
+data/runtime/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE files
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
